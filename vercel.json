@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "*.py",
+      "use": "@vercel/python",
+      "config": {
+        "pythonVersion": "3.8",
+        "installCommand": "pip install -r requirements.txt",
+        "runCommand": "python main_api.py"
+      }
+    }
+  ]
+}
