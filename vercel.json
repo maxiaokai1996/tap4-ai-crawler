@@ -6,8 +6,8 @@
       "use": "@vercel/python",
       "config": {
         "pythonVersion": "3.8",
-        "installCommand": "",
-        "runCommand": "pip install -r requirements.txt && python main_api.py"
+        "installCommand": "pip install -r requirements.txt ",
+        "runCommand": "python main_api.py"
       }
     }
   ]
